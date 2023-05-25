@@ -1,0 +1,64 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Font/myfont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Images/PersonagemPrincipal/Life/progress-above.png" type="Texture" id=2]
+[ext_resource path="res://Images/PersonagemPrincipal/Life/progress.png" type="Texture" id=3]
+[ext_resource path="res://Images/PersonagemPrincipal/Life/progress-under.png" type="Texture" id=4]
+[ext_resource path="res://Player/Status.gd" type="Script" id=5]
+
+[node name="GUI" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -1.32876
+margin_bottom = -1.32874
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ProgressBar" type="TextureProgress" parent="."]
+margin_left = 35.0068
+margin_top = 17.6663
+margin_right = 135.007
+margin_bottom = 57.6663
+value = 100.0
+texture_under = ExtResource( 4 )
+texture_over = ExtResource( 2 )
+texture_progress = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="score" type="RichTextLabel" parent="."]
+margin_left = 4.0
+margin_top = 40.0
+margin_right = 129.0
+margin_bottom = 89.0
+custom_fonts/normal_font = ExtResource( 1 )
+text = "Score:0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="best_score" type="RichTextLabel" parent="."]
+margin_left = 4.0
+margin_top = 67.0
+margin_right = 224.0
+margin_bottom = 113.0
+custom_fonts/normal_font = ExtResource( 1 )
+text = "Best Score:0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HP" type="RichTextLabel" parent="."]
+margin_left = 4.0
+margin_top = 13.6618
+margin_right = 133.0
+margin_bottom = 75.6618
+custom_fonts/normal_font = ExtResource( 1 )
+text = "HP:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="changed" from="ProgressBar" to="." method="_on_ProgressBar_changed"]
