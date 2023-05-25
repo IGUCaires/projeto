@@ -1,0 +1,65 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://TitleScreen.gd" type="Script" id=1]
+[ext_resource path="res://Images/Background/parallax-mountain.png" type="Texture" id=2]
+[ext_resource path="res://Font/new_dynamicfont.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Font/new_dynamicfont1.tres" type="DynamicFont" id=4]
+
+[node name="TitleScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 3.77646, 3.75636 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+margin_left = 359.0
+margin_top = 197.0
+margin_right = 664.0
+margin_bottom = 403.0
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer"]
+light_mask = -2147483647
+margin_right = 305.0
+margin_bottom = 106.0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.168627, 0.286275, 0.635294, 1 )
+custom_colors/font_outline_modulate = Color( 0.815686, 0.109804, 0.109804, 1 )
+custom_colors/font_color_shadow = Color( 0.337255, 0.14902, 0.14902, 1 )
+text = "Meu jogo"
+align = 1
+
+[node name="Button" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 110.0
+margin_right = 305.0
+margin_bottom = 156.0
+custom_fonts/font = ExtResource( 3 )
+text = "Start"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 160.0
+margin_right = 305.0
+margin_bottom = 206.0
+custom_fonts/font = ExtResource( 3 )
+text = "Quit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Button2" to="." method="_on_Button2_pressed"]

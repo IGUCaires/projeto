@@ -1,0 +1,403 @@
+[gd_scene load_steps=29 format=2]
+
+[ext_resource path="res://Font/TItuloBotoes.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Images/Historia/Rotina1/aQrmosh-3.png" type="Texture" id=2]
+[ext_resource path="res://Images/Historia/Rotina1/aQrmosh-1.png" type="Texture" id=3]
+[ext_resource path="res://Images/Historia/Rotina1/aQrmosh-4.png" type="Texture" id=4]
+[ext_resource path="res://Images/Historia/Rotina1/aQrmosh-0.png" type="Texture" id=5]
+[ext_resource path="res://Images/Historia/Rotina1/aQrmosh-2.png" type="Texture" id=6]
+[ext_resource path="res://Images/Historia/Rotina2/25972b577170e786a991aa6b0fb28d1f-3.png" type="Texture" id=7]
+[ext_resource path="res://Intro.gd" type="Script" id=8]
+[ext_resource path="res://Images/Historia/Rotina3/105e411eae695240c556200f3c643b7a0d800411_00-4.png" type="Texture" id=9]
+[ext_resource path="res://Song/Trem.wav" type="AudioStream" id=10]
+[ext_resource path="res://Images/Historia/Rotina3/105e411eae695240c556200f3c643b7a0d800411_00-0.png" type="Texture" id=11]
+[ext_resource path="res://Images/Historia/Rotina3/105e411eae695240c556200f3c643b7a0d800411_00-1.png" type="Texture" id=12]
+[ext_resource path="res://Images/Historia/Rotina3/105e411eae695240c556200f3c643b7a0d800411_00-5.png" type="Texture" id=13]
+[ext_resource path="res://Images/Historia/Rotina3/105e411eae695240c556200f3c643b7a0d800411_00-2.png" type="Texture" id=14]
+[ext_resource path="res://Images/Historia/Rotina1/aQrmosh-5.png" type="Texture" id=15]
+[ext_resource path="res://Images/Historia/Rotina3/105e411eae695240c556200f3c643b7a0d800411_00-3.png" type="Texture" id=16]
+[ext_resource path="res://Images/Historia/Aperda/ed926f94fd424eccbc1da3cc9ed4af95vKfKJjzixiQoUS8G-1.jpg" type="Texture" id=17]
+[ext_resource path="res://Images/Historia/Rotina2/25972b577170e786a991aa6b0fb28d1f-2.png" type="Texture" id=18]
+[ext_resource path="res://Images/Historia/Aperda/ed926f94fd424eccbc1da3cc9ed4af95vKfKJjzixiQoUS8G-0.jpg" type="Texture" id=19]
+[ext_resource path="res://Images/Historia/Rotina2/25972b577170e786a991aa6b0fb28d1f-0.png" type="Texture" id=20]
+[ext_resource path="res://Images/Historia/Aperda/ed926f94fd424eccbc1da3cc9ed4af95vKfKJjzixiQoUS8G-3.jpg" type="Texture" id=21]
+[ext_resource path="res://Images/Historia/Rotina2/25972b577170e786a991aa6b0fb28d1f-1.png" type="Texture" id=22]
+[ext_resource path="res://Images/Historia/Aperda/ed926f94fd424eccbc1da3cc9ed4af95vKfKJjzixiQoUS8G-4.jpg" type="Texture" id=23]
+[ext_resource path="res://Images/Historia/Rotina2/25972b577170e786a991aa6b0fb28d1f-4.png" type="Texture" id=24]
+[ext_resource path="res://Images/Historia/Aperda/ed926f94fd424eccbc1da3cc9ed4af95vKfKJjzixiQoUS8G-2.jpg" type="Texture" id=25]
+[ext_resource path="res://Images/Historia/Aperda/ed926f94fd424eccbc1da3cc9ed4af95vKfKJjzixiQoUS8G-5.jpg" type="Texture" id=26]
+[ext_resource path="res://Font/myfont.tres" type="DynamicFont" id=27]
+
+[sub_resource type="Animation" id=1]
+resource_name = "New Anim"
+length = 71.0
+step = 1.0
+tracks/0/type = "method"
+tracks/0/path = NodePath("Label")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"values": [  ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Label:custom_fonts/font")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"update": 0,
+"values": [  ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Label:custom_colors/font_color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12.5, 13, 14, 15, 18, 19, 21.1, 22.1, 24, 25.2, 26, 27, 29, 30, 31, 32, 34, 35.1, 36, 37, 40, 41, 42, 43, 44, 45, 46, 47, 49, 50, 51, 52, 54, 55, 56, 57, 59, 60, 61, 62, 64.1, 66, 67, 67.5, 68.5, 71 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.4, 0.4, 0.4, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.388235, 0.388235, 0.388235, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0, 0, 0, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Label:text")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 3.9, 4, 8, 8.1, 14, 14.1, 21.2, 21.3, 26, 26.1, 31, 31.1, 36, 36.1, 42, 42.1, 46, 46.1, 51, 51.1, 56, 56.1, 61, 61.1, 67, 67.1, 68, 68.5, 69, 69.6, 70.7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ "06 JUNHO 2021", "06 JUNHO 2021", "Mais um dia indo trabalhar naquela empresa", "Mais um dia indo trabalhar naquela empresa", "Existe uma pressão para ter um bom carro uma boa casa
+Tenha filhos, forme uma família e finja que é feliz 
+", "Existe uma pressão para ter um bom carro uma boa casa
+Tenha filhos, forme uma família e finja que é feliz 
+", "Fingir por 30 minutos que não tenho essas responsabilidades
+E a parte mais difícil do meu dia ", "Fingir por 30 minutos que não tenho essas responsabilidades
+E a parte mais difícil do meu dia ", "Meu cargo e de desenvolvedor júnior, eu era um estagiário ", "Meu cargo e de desenvolvedor júnior, eu era um estagiário ", "Mais meu chefe disse que eu era um jovem com potencial  ", "Mais meu chefe disse que eu era um jovem com potencial  ", "Eu acho difícil não me preocupar com qualquer coisa hoje em dia ", "Eu acho difícil não me preocupar com qualquer coisa hoje em dia ", "Na verdade minha maior preocupação e 
+não conseguir parar de me preocupar com as coisas ", "Na verdade minha maior preocupação e 
+não conseguir parar de me preocupar com as coisas ", "Isso me preocupa ...", "Isso me preocupa ...", "Meu nome e Jonas da silva", "Meu nome e Jonas da silva", "Meu pai abandonou minha mãe quanto eu tinha 3 dias de vida ", "Meu pai abandonou minha mãe quanto eu tinha 3 dias de vida ", "As vezes me pergunto se ele me olhou nos olhos e pensou ", "As vezes me pergunto se ele me olhou nos olhos e pensou ", "Será que sou pai do cara mais insignificante do mundo ...", "Será que sou pai do cara mais insignificante do mundo ...", "z", "zZ", "zZz", "zZzZ", "zZzZz", "zZzZz" ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Trem:stream")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 2.9 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 10 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Trem:playing")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 5, 71 ),
+"transitions": PoolRealArray( 0.5, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Trem:stream_paused")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"update": 1,
+"values": [  ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Label/Cena1:modulate")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0.1, 4, 5, 12, 13, 14 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Label/Cena1:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = false
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 166.281, 234.034 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Label/Cena1:texture")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 14 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 11 ), ExtResource( 12 ), ExtResource( 14 ), ExtResource( 16 ), ExtResource( 9 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 14 ), ExtResource( 16 ), ExtResource( 9 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 14 ), ExtResource( 16 ), ExtResource( 13 ), ExtResource( 16 ) ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Label/Cena2:texture")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 14, 14.5, 15, 15.5, 16, 16.5, 17, 17.5, 18, 18.5, 19, 19.5, 20, 20.5, 21, 21.5, 22, 22.5, 23, 23.5, 24, 24.5, 25 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2.82843, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 5 ), ExtResource( 3 ), ExtResource( 6 ), ExtResource( 2 ), ExtResource( 4 ), ExtResource( 15 ), ExtResource( 3 ), ExtResource( 6 ), ExtResource( 2 ), ExtResource( 4 ), ExtResource( 15 ), ExtResource( 3 ), ExtResource( 6 ), ExtResource( 2 ), ExtResource( 4 ), ExtResource( 15 ), ExtResource( 3 ), ExtResource( 6 ), ExtResource( 2 ), ExtResource( 15 ), ExtResource( 4 ), ExtResource( 6 ), ExtResource( 5 ) ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Label/Cena2:modulate")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 14, 15.4, 23, 24, 25 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ) ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("Label/Cena2:visible")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0.1, 14 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("Label/Cena1:visible")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"times": PoolRealArray( 0, 14 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/14/type = "value"
+tracks/14/path = NodePath("Label/Cena3:texture")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/keys = {
+"times": PoolRealArray( 26.1, 27, 28, 29, 30, 31, 32.1, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46.1, 46.9, 48, 49, 50, 51 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1.56917, 1, 1.7411, 1, 1, 1, 1, 1, 1, 1, 1, 1, 174.853, 1, 3.605 ),
+"update": 1,
+"values": [ ExtResource( 20 ), ExtResource( 22 ), ExtResource( 18 ), ExtResource( 7 ), ExtResource( 24 ), ExtResource( 20 ), ExtResource( 22 ), ExtResource( 18 ), ExtResource( 7 ), ExtResource( 24 ), ExtResource( 20 ), ExtResource( 22 ), ExtResource( 20 ), ExtResource( 18 ), ExtResource( 7 ), ExtResource( 24 ), ExtResource( 20 ), ExtResource( 22 ), ExtResource( 18 ), ExtResource( 7 ), ExtResource( 24 ), ExtResource( 20 ), ExtResource( 22 ), ExtResource( 18 ), ExtResource( 20 ), ExtResource( 7 ) ]
+}
+tracks/15/type = "value"
+tracks/15/path = NodePath("Label/Cena3:visible")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/keys = {
+"times": PoolRealArray( 0.1, 26, 50.9 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, true, false ]
+}
+tracks/16/type = "value"
+tracks/16/path = NodePath("Label/Cena3:modulate")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/keys = {
+"times": PoolRealArray( 26, 27, 49, 50.1, 51 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ) ]
+}
+tracks/17/type = "value"
+tracks/17/path = NodePath("Label/Cena4:visible")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/keys = {
+"times": PoolRealArray( -0.6, 50.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/18/type = "value"
+tracks/18/path = NodePath("Label/Cena4:modulate")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/keys = {
+"times": PoolRealArray( 50.9, 52, 68, 69, 71 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 1, 1, 1, 1 ), Color( 0.392157, 0.392157, 0.392157, 1 ), Color( 0, 0, 0, 1 ) ]
+}
+tracks/19/type = "value"
+tracks/19/path = NodePath("Label/Cena4:texture")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/keys = {
+"times": PoolRealArray( 50.912, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 19 ), ExtResource( 17 ), ExtResource( 25 ), ExtResource( 21 ), ExtResource( 23 ), ExtResource( 26 ), ExtResource( 19 ), ExtResource( 17 ), ExtResource( 25 ), ExtResource( 21 ), ExtResource( 23 ), ExtResource( 26 ), ExtResource( 17 ), ExtResource( 25 ), ExtResource( 21 ), ExtResource( 23 ), ExtResource( 26 ), ExtResource( 17 ), ExtResource( 25 ), ExtResource( 21 ), ExtResource( 19 ) ]
+}
+tracks/20/type = "value"
+tracks/20/path = NodePath("Label/Cena2:position")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/imported = false
+tracks/20/enabled = false
+tracks/20/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"update": 0,
+"values": [  ]
+}
+tracks/21/type = "value"
+tracks/21/path = NodePath("Label/Cena3:position")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/imported = false
+tracks/21/enabled = false
+tracks/21/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"update": 0,
+"values": [  ]
+}
+tracks/22/type = "value"
+tracks/22/path = NodePath("Label/Cena4:position")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/imported = false
+tracks/22/enabled = false
+tracks/22/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"update": 0,
+"values": [  ]
+}
+
+[node name="Node2D" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -10.3859
+margin_bottom = -10.3859
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Fundo" type="Sprite" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 686.62, 394.577 )
+scale = Vector2( 5, 5 )
+z_index = -4
+texture = ExtResource( 11 )
+
+[node name="Label" type="Label" parent="."]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_top = -20.0
+margin_bottom = 20.0
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_constants/shadow_offset_x = 0
+custom_constants/line_spacing = 0
+custom_constants/shadow_offset_y = 0
+text = "06 JUNHO 2021"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Cena1" type="Sprite" parent="Label"]
+modulate = Color( 0.392157, 0.392157, 0.392157, 1 )
+position = Vector2( 166.281, 234.034 )
+z_index = -1
+texture = ExtResource( 11 )
+
+[node name="Cena2" type="Sprite" parent="Label"]
+visible = false
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 397.083, 232.694 )
+z_index = -1
+texture = ExtResource( 5 )
+
+[node name="Cena3" type="Sprite" parent="Label"]
+visible = false
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 610.733, 228.11 )
+z_index = -1
+texture = ExtResource( 7 )
+
+[node name="Cena4" type="Sprite" parent="Label"]
+visible = false
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 864.493, 236.595 )
+z_index = -1
+texture = ExtResource( 19 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "New Anim"
+method_call_mode = 1
+"anims/New Anim" = SubResource( 1 )
+
+[node name="Trem" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 10 )
+
+[node name="Switch" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 372.814
+margin_top = -282.454
+margin_right = 503.814
+margin_bottom = -258.454
+custom_fonts/font = ExtResource( 27 )
+text = "Skip"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
+[connection signal="pressed" from="Switch" to="." method="_on_Switch_pressed"]
