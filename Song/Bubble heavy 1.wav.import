@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Bubble heavy 1.wav-e22ea17ce2ba4785f4663af258331b00.sample"
+
+[deps]
+
+source_file="res://Song/Bubble heavy 1.wav"
+dest_files=[ "res://.import/Bubble heavy 1.wav-e22ea17ce2ba4785f4663af258331b00.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
